@@ -16,8 +16,16 @@
 ***検証済み端末***
 - ***TAB-A03-BS***
 - ***TAB-A03-BR2***
-
-※**Nova Launcher**のバックアップファイルが､<br>正常に適応されない事を確認しています｡<br>現在原因を調査中ですので､<br>更新を暫くお待ち下さい｡
 <br>
 
+***システムアプリの保持*** と ***[CPad Customize Tool](https://github.com/Kobold831/CPadCustomizeTool "Kobold831/CPadCustomizeTool: This application allows you to change the Challenge Pad settings. It also provides various functions.")の利用***を<br>PS1スクリプト内で編集できます｡
+<br>
+```
+# システムアプリを保持する場合は、次の値を "1" に変更して下さい｡
+$keepSysApps = 0
+
+# ｢CPad Customize Tool｣を使用する方は、次の値を "1" に変更して下さい｡
+# ※必ず about を開いて内容を確認して下さい｡
+$instCusTool = 0
+```
 詳細な手順は､[こちら](https://coconala.com/blogs/2890872/149527 "使わなくなったチャレパ２をうまく活用しよう！｜シューゴ☆｜coconalaブログ")からご確認下さい｡
